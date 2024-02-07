@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "storage-extractor"
+version = "0.1.0"
+description = ""
+authors = ["Tony Rocco Valentine <tvalentine@dedaub.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp-basicauth = "^1.0.0"
+uvloop = "^0.19.0"
+pandas = "^2.2.0"
+seaborn = "^0.13.2"
+matplotlib = "^3.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
